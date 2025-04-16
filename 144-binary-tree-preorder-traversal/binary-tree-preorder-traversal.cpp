@@ -13,7 +13,7 @@ class Solution {
 public:
     vector<int> preorderTraversal(TreeNode* root) {
         vector<int>res;
-        if(!root){
+        if(root==NULL){
             return res;
         }
         stack<TreeNode*>st;
