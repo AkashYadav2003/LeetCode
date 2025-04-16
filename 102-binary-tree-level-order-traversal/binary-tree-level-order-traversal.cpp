@@ -19,9 +19,9 @@ public:
         queue<TreeNode*>q;
         q.push(root);
         while(!q.empty()){
-            int sz=q.size();
+            int n=q.size();
             vector<int>level;
-            for(int i=0;i<sz;i++){
+            for(int i=0;i<n;i++){
                 TreeNode* node=q.front();
                 q.pop();
                 if(node->left!=NULL){
